@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.haohaohu.androidanimationsample.MainActivity">
+
+    <TextView
+        android:id="@+id/main_frame_anim"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:gravity="center"
+        android:text="帧动画" />
+
+    <TextView
+        android:id="@+id/main_property_anim"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:gravity="center"
+        android:text="属性动画" />
+
+    <TextView
+        android:id="@+id/main_tween_anim"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:gravity="center"
+        android:text="补间动画" />
+
+</LinearLayout>
